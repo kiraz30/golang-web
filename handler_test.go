@@ -7,7 +7,7 @@ import (
 )
 
 /*
-Cara menjalankan kode
+Cara menjalankan kode dengan web server
 -run test sesuai fungsi yang dipilih
 -masuk ke localhost:8080 pada browser
 */
