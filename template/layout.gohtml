@@ -1,0 +1,16 @@
+<!-- tanpa define -->
+<!-- {{ template "header.gohtml" .}}
+<h1>Hello {{.Name}}</h1>
+{{ template "footer.gohtml"}} */ --->
+
+<!-- menggunakan define -->
+{{define "layout"}}
+{{ template "header" .}}
+<h1>Hello {{.Name}}</h1>
+{{ template "footer"}}
+{{end}}
+
+
+{{define "test"}}
+<h2>Hanya test define</h2>
+{{end}}
