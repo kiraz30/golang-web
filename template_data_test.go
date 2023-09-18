@@ -14,6 +14,9 @@ func TemplateDataMap(w http.ResponseWriter, r *http.Request) {
 	t.ExecuteTemplate(w, "name.gohtml", map[string]interface{}{
 		"Title": "Template Data",
 		"Name":  "Bima setya",
+		"Address": map[string]interface{}{
+			"Street": "Jalan Tawakal",
+		},
 	})
 }
 
